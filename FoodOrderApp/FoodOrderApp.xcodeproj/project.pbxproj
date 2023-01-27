@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480B29E9296C1800009E9F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B29E8296C1800009E9F9C /* AppDelegate.swift */; };
+		480B29EE296C1800009E9F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480B29EC296C1800009E9F9C /* Main.storyboard */; };
+		480B29F0296C1806009E9F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480B29EF296C1806009E9F9C /* Assets.xcassets */; };
+		480B29F3296C1806009E9F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480B29F1296C1806009E9F9C /* LaunchScreen.storyboard */; };
+		480B2A03296C3CE5009E9F9C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B2A02296C3CE5009E9F9C /* OnboardingViewController.swift */; };
+		480B2A06296C3E76009E9F9C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B2A05296C3E76009E9F9C /* UIView+Extension.swift */; };
+		480B2A09296C4026009E9F9C /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B2A08296C4026009E9F9C /* OnboardingSlide.swift */; };
+		485F0CB4296EDC7D00F45EDD /* BestDishesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F0CB3296EDC7D00F45EDD /* BestDishesCollectionViewCell.swift */; };
+		485F0CB6296EE23800F45EDD /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F0CB5296EE23800F45EDD /* Dish.swift */; };
+		48604CD02977FBC5008562EC /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48604CCF2977FBC5008562EC /* PlaceOrderViewController.swift */; };
+		4860E3B9297550B600E25F72 /* BestDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860E3B8297550B600E25F72 /* BestDish.swift */; };
+		4862E2FF2978227100993777 /* OrderMeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4862E2FD2978227100993777 /* OrderMeal.xcdatamodeld */; };
+		4867875E29717146006D00BB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867875D29717146006D00BB /* Order.swift */; };
+		4867876429718C2C006D00BB /* ListOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867876329718C2C006D00BB /* ListOrderTableViewCell.swift */; };
+		4867876729718C67006D00BB /* ListOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867876629718C67006D00BB /* ListOrderViewController.swift */; };
+		4868E33E297AA95E0026DE35 /* MostPopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868E33D297AA95D0026DE35 /* MostPopularCollectionViewCell.swift */; };
+		486CE5C5296D786A00E07520 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CE5C4296D786A00E07520 /* OnboardingCollectionViewCell.swift */; };
+		486CE5C8296D92CE00E07520 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CE5C7296D92CE00E07520 /* HomeViewController.swift */; };
+		487312D82971446A00FA5352 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487312D72971446A00FA5352 /* DishDetailViewController.swift */; };
+		487312DB297154FE00FA5352 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487312DA297154FE00FA5352 /* DishListTableViewCell.swift */; };
+		487312DE29715A5300FA5352 /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487312DD29715A5300FA5352 /* ListDishesViewController.swift */; };
+		48B92039296EA359001BCBB6 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B92038296EA359001BCBB6 /* CategoryCollectionViewCell.swift */; };
+		48B9203B296EA8AA001BCBB6 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B9203A296EA8AA001BCBB6 /* DishCategory.swift */; };
+		48E769C92976CBD400FF6EB2 /* DetailDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E769C82976CBD400FF6EB2 /* DetailDish.swift */; };
+		BBA93438B5DA249AC3292977 /* Pods_FoodOrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77C79D1FB8BAA84D6A5FD80 /* Pods_FoodOrderApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D17C0090469B7B113B80F83 /* Pods-FoodOrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp.release.xcconfig"; sourceTree = "<group>"; };
+		1FFA731AB8012F5B6C9E57AD /* Pods-FoodOrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodOrderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		480B29E5296C1800009E9F9C /* FoodOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480B29E8296C1800009E9F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		480B29ED296C1800009E9F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480B29EF296C1806009E9F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480B29F2296C1806009E9F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480B29F4296C1806009E9F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480B2A02296C3CE5009E9F9C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		480B2A05296C3E76009E9F9C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		480B2A08296C4026009E9F9C /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		485F0CB3296EDC7D00F45EDD /* BestDishesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestDishesCollectionViewCell.swift; sourceTree = "<group>"; };
+		485F0CB5296EE23800F45EDD /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		48604CCF2977FBC5008562EC /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		4860E3B8297550B600E25F72 /* BestDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestDish.swift; sourceTree = "<group>"; };
+		4862E2FE2978227100993777 /* OrderMeal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrderMeal.xcdatamodel; sourceTree = "<group>"; };
+		4867875D29717146006D00BB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4867876329718C2C006D00BB /* ListOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrderTableViewCell.swift; sourceTree = "<group>"; };
+		4867876629718C67006D00BB /* ListOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrderViewController.swift; sourceTree = "<group>"; };
+		4868E33D297AA95D0026DE35 /* MostPopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		486CE5C4296D786A00E07520 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		486CE5C7296D92CE00E07520 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		487312D72971446A00FA5352 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		487312DA297154FE00FA5352 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
+		487312DD29715A5300FA5352 /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
+		48B92038296EA359001BCBB6 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		48B9203A296EA8AA001BCBB6 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
+		48E769C82976CBD400FF6EB2 /* DetailDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDish.swift; sourceTree = "<group>"; };
+		D77C79D1FB8BAA84D6A5FD80 /* Pods_FoodOrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodOrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480B29E2296C1800009E9F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA93438B5DA249AC3292977 /* Pods_FoodOrderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480B29DC296C1800009E9F9C = {
+			isa = PBXGroup;
+			children = (
+				480B29E7296C1800009E9F9C /* FoodOrderApp */,
+				480B29E6296C1800009E9F9C /* Products */,
+				A7AFB706B513EDAC69BA70B9 /* Pods */,
+				8686781C16AA9EE0A28BEDD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		480B29E6296C1800009E9F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480B29E5296C1800009E9F9C /* FoodOrderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480B29E7296C1800009E9F9C /* FoodOrderApp */ = {
+			isa = PBXGroup;
+			children = (
+				48B92035296EA2A9001BCBB6 /* CustomViews */,
+				480B2A07296C3FA2009E9F9C /* Models */,
+				480B2A04296C3E27009E9F9C /* Extensions */,
+				480B2A00296C3C6B009E9F9C /* Views */,
+				480B29E8296C1800009E9F9C /* AppDelegate.swift */,
+				480B29EC296C1800009E9F9C /* Main.storyboard */,
+				480B29EF296C1806009E9F9C /* Assets.xcassets */,
+				480B29F1296C1806009E9F9C /* LaunchScreen.storyboard */,
+				480B29F4296C1806009E9F9C /* Info.plist */,
+				4862E2FD2978227100993777 /* OrderMeal.xcdatamodeld */,
+			);
+			path = FoodOrderApp;
+			sourceTree = "<group>";
+		};
+		480B2A00296C3C6B009E9F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48604CCE2977FB99008562EC /* PlaceOrder */,
+				4867876529718C43006D00BB /* ListOrder */,
+				487312DC29715A1800FA5352 /* ListDishes */,
+				487312D62971440A00FA5352 /* DishDetails */,
+				486CE5C6296D92A100E07520 /* Home */,
+				480B2A01296C3CAB009E9F9C /* Onboarding */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		480B2A01296C3CAB009E9F9C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				480B2A02296C3CE5009E9F9C /* OnboardingViewController.swift */,
+				486CE5C4296D786A00E07520 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		480B2A04296C3E27009E9F9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				480B2A05296C3E76009E9F9C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		480B2A07296C3FA2009E9F9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				480B2A08296C4026009E9F9C /* OnboardingSlide.swift */,
+				48B9203A296EA8AA001BCBB6 /* DishCategory.swift */,
+				485F0CB5296EE23800F45EDD /* Dish.swift */,
+				4867875D29717146006D00BB /* Order.swift */,
+				4860E3B8297550B600E25F72 /* BestDish.swift */,
+				48E769C82976CBD400FF6EB2 /* DetailDish.swift */,
+			);
+			name = Models;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		485F0CB2296EDC0600F45EDD /* BestDishesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				485F0CB3296EDC7D00F45EDD /* BestDishesCollectionViewCell.swift */,
+			);
+			path = BestDishesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		48604CCE2977FB99008562EC /* PlaceOrder */ = {
+			isa = PBXGroup;
+			children = (
+				48604CCF2977FBC5008562EC /* PlaceOrderViewController.swift */,
+			);
+			path = PlaceOrder;
+			sourceTree = "<group>";
+		};
+		4867876229718BD4006D00BB /* ListOrderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4867876329718C2C006D00BB /* ListOrderTableViewCell.swift */,
+			);
+			path = ListOrderTableViewCell;
+			sourceTree = "<group>";
+		};
+		4867876529718C43006D00BB /* ListOrder */ = {
+			isa = PBXGroup;
+			children = (
+				4867876629718C67006D00BB /* ListOrderViewController.swift */,
+			);
+			path = ListOrder;
+			sourceTree = "<group>";
+		};
+		4868E33C297AA8F10026DE35 /* MostPopularCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4868E33D297AA95D0026DE35 /* MostPopularCollectionViewCell.swift */,
+			);
+			path = MostPopularCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		486CE5C6296D92A100E07520 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				486CE5C7296D92CE00E07520 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		487312D62971440A00FA5352 /* DishDetails */ = {
+			isa = PBXGroup;
+			children = (
+				487312D72971446A00FA5352 /* DishDetailViewController.swift */,
+			);
+			path = DishDetails;
+			sourceTree = "<group>";
+		};
+		487312D92971549F00FA5352 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4867876229718BD4006D00BB /* ListOrderTableViewCell */,
+				487312DA297154FE00FA5352 /* DishListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		487312DC29715A1800FA5352 /* ListDishes */ = {
+			isa = PBXGroup;
+			children = (
+				487312DD29715A5300FA5352 /* ListDishesViewController.swift */,
+			);
+			path = ListDishes;
+			sourceTree = "<group>";
+		};
+		48B92035296EA2A9001BCBB6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				487312D92971549F00FA5352 /* TableViewCells */,
+				48B92036296EA2CD001BCBB6 /* CollectionViewCells */,
+			);
+			name = CustomViews;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		48B92036296EA2CD001BCBB6 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4868E33C297AA8F10026DE35 /* MostPopularCollectionViewCell */,
+				485F0CB2296EDC0600F45EDD /* BestDishesCollectionViewCell */,
+				48B92037296EA301001BCBB6 /* CategoryCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		48B92037296EA301001BCBB6 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				48B92038296EA359001BCBB6 /* CategoryCollectionViewCell.swift */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8686781C16AA9EE0A28BEDD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77C79D1FB8BAA84D6A5FD80 /* Pods_FoodOrderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7AFB706B513EDAC69BA70B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA731AB8012F5B6C9E57AD /* Pods-FoodOrderApp.debug.xcconfig */,
+				0D17C0090469B7B113B80F83 /* Pods-FoodOrderApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480B29E4296C1800009E9F9C /* FoodOrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480B29F7296C1806009E9F9C /* Build configuration list for PBXNativeTarget "FoodOrderApp" */;
+			buildPhases = (
+				C7DD85FB62D9AB422A222151 /* [CP] Check Pods Manifest.lock */,
+				480B29E1296C1800009E9F9C /* Sources */,
+				480B29E2296C1800009E9F9C /* Frameworks */,
+				480B29E3296C1800009E9F9C /* Resources */,
+				E278E8395BF07CE508545A25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodOrderApp;
+			productName = FoodOrderApp;
+			productReference = 480B29E5296C1800009E9F9C /* FoodOrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480B29DD296C1800009E9F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					480B29E4296C1800009E9F9C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 480B29E0296C1800009E9F9C /* Build configuration list for PBXProject "FoodOrderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480B29DC296C1800009E9F9C;
+			productRefGroup = 480B29E6296C1800009E9F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480B29E4296C1800009E9F9C /* FoodOrderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480B29E3296C1800009E9F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480B29F3296C1806009E9F9C /* LaunchScreen.storyboard in Resources */,
+				480B29F0296C1806009E9F9C /* Assets.xcassets in Resources */,
+				480B29EE296C1800009E9F9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7DD85FB62D9AB422A222151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodOrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E278E8395BF07CE508545A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodOrderApp/Pods-FoodOrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480B29E1296C1800009E9F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480B2A09296C4026009E9F9C /* OnboardingSlide.swift in Sources */,
+				485F0CB6296EE23800F45EDD /* Dish.swift in Sources */,
+				480B2A06296C3E76009E9F9C /* UIView+Extension.swift in Sources */,
+				48604CD02977FBC5008562EC /* PlaceOrderViewController.swift in Sources */,
+				4860E3B9297550B600E25F72 /* BestDish.swift in Sources */,
+				4862E2FF2978227100993777 /* OrderMeal.xcdatamodeld in Sources */,
+				486CE5C5296D786A00E07520 /* OnboardingCollectionViewCell.swift in Sources */,
+				485F0CB4296EDC7D00F45EDD /* BestDishesCollectionViewCell.swift in Sources */,
+				487312DB297154FE00FA5352 /* DishListTableViewCell.swift in Sources */,
+				487312DE29715A5300FA5352 /* ListDishesViewController.swift in Sources */,
+				4868E33E297AA95E0026DE35 /* MostPopularCollectionViewCell.swift in Sources */,
+				48B9203B296EA8AA001BCBB6 /* DishCategory.swift in Sources */,
+				480B29E9296C1800009E9F9C /* AppDelegate.swift in Sources */,
+				480B2A03296C3CE5009E9F9C /* OnboardingViewController.swift in Sources */,
+				487312D82971446A00FA5352 /* DishDetailViewController.swift in Sources */,
+				4867875E29717146006D00BB /* Order.swift in Sources */,
+				48B92039296EA359001BCBB6 /* CategoryCollectionViewCell.swift in Sources */,
+				48E769C92976CBD400FF6EB2 /* DetailDish.swift in Sources */,
+				4867876429718C2C006D00BB /* ListOrderTableViewCell.swift in Sources */,
+				486CE5C8296D92CE00E07520 /* HomeViewController.swift in Sources */,
+				4867876729718C67006D00BB /* ListOrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		480B29EC296C1800009E9F9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480B29ED296C1800009E9F9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480B29F1296C1806009E9F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480B29F2296C1806009E9F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480B29F5296C1806009E9F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		480B29F6296C1806009E9F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480B29F8296C1806009E9F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFA731AB8012F5B6C9E57AD /* Pods-FoodOrderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFRFP6ZDLY;
+				INFOPLIST_FILE = FoodOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Felix.FoodOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480B29F9296C1806009E9F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D17C0090469B7B113B80F83 /* Pods-FoodOrderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFRFP6ZDLY;
+				INFOPLIST_FILE = FoodOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Felix.FoodOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480B29E0296C1800009E9F9C /* Build configuration list for PBXProject "FoodOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480B29F5296C1806009E9F9C /* Debug */,
+				480B29F6296C1806009E9F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480B29F7296C1806009E9F9C /* Build configuration list for PBXNativeTarget "FoodOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480B29F8296C1806009E9F9C /* Debug */,
+				480B29F9296C1806009E9F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4862E2FD2978227100993777 /* OrderMeal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4862E2FE2978227100993777 /* OrderMeal.xcdatamodel */,
+			);
+			currentVersion = 4862E2FE2978227100993777 /* OrderMeal.xcdatamodel */;
+			path = OrderMeal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 480B29DD296C1800009E9F9C /* Project object */;
+}
